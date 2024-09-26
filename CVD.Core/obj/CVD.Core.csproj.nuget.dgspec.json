@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\CVD.Core.csproj": {}
+    "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\CVD.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\CVD.Core.csproj": {
+    "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\CVD.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\CVD.Core.csproj",
+        "projectUniqueName": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\CVD.Core.csproj",
         "projectName": "CVD.Core",
-        "projectPath": "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\CVD.Core.csproj",
+        "projectPath": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\CVD.Core.csproj",
         "packagesPath": "C:\\Users\\exus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\obj\\",
+        "outputPath": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

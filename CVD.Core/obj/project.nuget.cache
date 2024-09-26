@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "m7pLRZ/fr/8=",
+  "dgSpecHash": "ybKbE+1scZA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\exus\\Documents\\GitHub\\Charm-Video-Downloader\\CVD.Core\\CVD.Core.csproj",
+  "projectFilePath": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD.Core\\CVD.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\exus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\exus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\exus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\exus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

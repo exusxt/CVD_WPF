@@ -9,3 +9,14 @@ C:\Users\exus\Documents\GitHub\Charm-Video-Downloader\CVD.Core\obj\Release\netst
 C:\Users\exus\Documents\GitHub\Charm-Video-Downloader\CVD.Core\obj\Release\netstandard2.0\CVD.Core.sourcelink.json
 C:\Users\exus\Documents\GitHub\Charm-Video-Downloader\CVD.Core\obj\Release\netstandard2.0\CVD.Core.dll
 C:\Users\exus\Documents\GitHub\Charm-Video-Downloader\CVD.Core\obj\Release\netstandard2.0\CVD.Core.pdb
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\bin\Release\netstandard2.0\CVD.Core.deps.json
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\bin\Release\netstandard2.0\CVD.Core.dll
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\bin\Release\netstandard2.0\CVD.Core.pdb
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.csproj.AssemblyReference.cache
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.AssemblyInfoInputs.cache
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.AssemblyInfo.cs
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.csproj.CoreCompileInputs.cache
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.sourcelink.json
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.dll
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD.Core\obj\Release\netstandard2.0\CVD.Core.pdb
