@@ -34,7 +34,11 @@
             <Button x:Name="buttonClear" Content="CLEAR SELECTED" HorizontalAlignment="Left" Height="46" Margin="676,320,0,0" VerticalAlignment="Top" Width="108" Click="buttonClear_Click"/>
             <Button x:Name="buttonDownload" Content="START DOWNLOAD" HorizontalAlignment="Left" Height="46" Margin="789,320,0,0" VerticalAlignment="Top" Width="108" Click="buttonDownload_Click"/>
             <Button x:Name="buttonClearList" Content="CLEAR LIST" HorizontalAlignment="Left" Height="46" Margin="563,320,0,0" VerticalAlignment="Top" Width="108" Click="buttonClearList_Click"/>
-            <Button x:Name="buttonCancel" Content="Cancel" HorizontalAlignment="Left" Height="46" Margin="450,320,0,0" VerticalAlignment="Top" Width="108" Click="buttonCancel_Click"/>
+            <Button x:Name="buttonCancel" Content="Cancel" HorizontalAlignment="Left" Height="46" Margin="450,320,0,0" VerticalAlignment="Top" Width="108" Click="buttonCancel_Click" IsEnabled="False"/>
+            <TextBlock x:Name="labelDownloadspeed"
+    Style="{StaticResource PageTitleStyle}"
+    Margin="10,324,0,0"
+    Text="Downloadspeed:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="428" Height="38" />
             <notifications:NotificationArea x:Name="WindowArea" Position="BottomRight" MaxItems="10" Panel.ZIndex="1000"/>
             <ProgressBar x:Name="progressBar1" HorizontalAlignment="Left" Height="39" Margin="10,371,0,0" VerticalAlignment="Top" Width="887" Maximum="1"/>
         </Grid>

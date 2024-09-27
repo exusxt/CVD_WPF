@@ -8,6 +8,7 @@ using Notification.Wpf;
 using Notification.Wpf.Classes;
 using System.Windows.Media;
 using YoutubeDLSharp;
+using YoutubeDLSharp.Options;
 
 namespace CVD.Views;
 
@@ -16,6 +17,7 @@ public partial class MainPage : Page, INotifyPropertyChanged
     private bool isNotDownloading = true;
     private IProgress<DownloadProgress> progress;
     private IProgress<string> output;
+    string DownloadFolder = @"downloads";
 
     public MainPage()
     {
@@ -24,7 +26,14 @@ public partial class MainPage : Page, INotifyPropertyChanged
         //Application.Current.MainWindow.WindowState = WindowState.Maximized;
         Loaded += MainPage_Loaded;
         progress = new Progress<DownloadProgress>((p) => showProgress(p));
-
+        
+        // If directory does not exist, create it
+        if (!Directory.Exists(DownloadFolder))
+        {
+            Directory.CreateDirectory(DownloadFolder);
+        }
+        
+        
     }
 
 
@@ -36,6 +45,7 @@ public partial class MainPage : Page, INotifyPropertyChanged
     private void showProgress(DownloadProgress p)
     {
         progressBar1.Value = p.Progress;
+        labelDownloadspeed.Text = $"Downloadspeed: {p.DownloadSpeed} | left: {p.ETA}";
     }
 
     private async void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -129,29 +139,75 @@ public partial class MainPage : Page, INotifyPropertyChanged
     {
         cts.Dispose(); // Clean up old token source....
         cts = new CancellationTokenSource(); // "Reset" the cancellation token source...
-        
+        buttonCancel.IsEnabled = true;
+        buttonDownload.IsEnabled = false;
+        buttonClearList.IsEnabled = false;
+        buttonClear.IsEnabled = false;
+        buttonadd.IsEnabled = false;
+        isNotDownloading = false;
+        DirectoryInfo dir = new DirectoryInfo(DownloadFolder);
+        // get all the files in the directory. 
+        // SearchOptions.AllDirectories gets all the files in subdirectories as well
+        bool TempCleaned = false;
+        FileInfo[] files = dir.GetFiles("*.*", SearchOption.AllDirectories);
+        foreach (FileInfo file in files)
+        {
+            if (file.Name.Contains("*.ytdl") || file.Name.Contains("*.Frag*"))
+            {
+                File.Delete(file.FullName);
+                TempCleaned = true;
+            }
+        }
+        if (TempCleaned)
+        {
+            _notificationManager.Show("Warning", "Temp Files were cleaned!", NotificationType.Warning, "WindowArea");
+        }
         var ytdl = new YoutubeDL();
+        ytdl.OutputFolder = DownloadFolder;
+        var options = new OptionSet()
+        {
+            ForceOverwrites = true,
+            RestrictFilenames = true,
+            Format = "best",
+            RemuxVideo = "mp4"
+        };
         foreach (var listBoxItem in listBox1.Items)
         {
 
             _notificationManager.Show("Start", listBoxItem.ToString() + " download started!", NotificationType.Information, "WindowArea");
-            var progress = new Progress<DownloadProgress>(p => progressBar1.Value = p.Progress);
+            
             // a cancellation token source used for cancelling the download
             // use `cts.Cancel();` to perform cancellation
             RunResult<string> result;
             isNotDownloading = false;
-            result = await ytdl.RunVideoDownload(listBoxItem.ToString(),
-                            progress: progress, ct: cts.Token);
+            foreach (FileInfo file in files)
+            {
+                if (file.Name.Contains("*.ytdl"))
+                {
+                    File.Delete(file.FullName);
+
+                }
+            }
+                    result = await ytdl.RunVideoDownload(listBoxItem.ToString(),
+                            progress: progress, ct: cts.Token, overrideOptions: options);
             if (result.Success)
             {
-                _notificationManager.Show("Success", listBoxItem.ToString() + " was downloaded!", NotificationType.Success, "WindowArea");
+                _notificationManager.Show("Success", listBoxItem.ToString() + " download finished!", NotificationType.Success, "WindowArea");
             }
             else
             {
-                _notificationManager.Show("Error", listBoxItem.ToString() + " wasn't downloaded!", NotificationType.Error, "WindowArea");
+                _notificationManager.Show("Error", listBoxItem.ToString() + " download failed!", NotificationType.Error, "WindowArea");
+                _notificationManager.Show("Warning", listBoxItem.ToString() + " download failed!", NotificationType.Warning, "WindowArea");
             }
-            isNotDownloading = true;
+            
         }
+        isNotDownloading = true;
+        buttonCancel.IsEnabled = false;
+        buttonDownload.IsEnabled = true;
+        buttonClearList.IsEnabled = true;
+        buttonClear.IsEnabled = true;
+        buttonadd.IsEnabled = true;
+        _notificationManager.Show("Success", "All videos were downloaded", NotificationType.Information, "WindowArea");
     }
 
     private void buttonClearList_Click(object sender, RoutedEventArgs e)
@@ -173,6 +229,16 @@ public partial class MainPage : Page, INotifyPropertyChanged
 
     private void buttonCancel_Click(object sender, RoutedEventArgs e)
     {
-        cts.Cancel();
+        if (!isNotDownloading)
+        {
+            cts.Cancel();
+            buttonCancel.IsEnabled = false;
+            buttonDownload.IsEnabled = true;
+            buttonClearList.IsEnabled = true;
+            buttonClear.IsEnabled = true;
+            buttonadd.IsEnabled = true;
+            isNotDownloading = true;
+            progressBar1.Value = 0;
+        }
     }
 }

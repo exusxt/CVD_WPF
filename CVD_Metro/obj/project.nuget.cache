@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+uawLFLB0KY=",
+  "dgSpecHash": "4EvKmgvY+/I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD\\CVD_Metro.csproj",
+  "projectFilePath": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\CVD_Metro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\exus\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\exus\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",

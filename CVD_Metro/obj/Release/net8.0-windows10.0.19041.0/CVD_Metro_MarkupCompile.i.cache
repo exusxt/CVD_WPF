@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\exus\Documents\GitHub\CVD_WPF\CVD\obj\Release\net8.0-windows10.0.19041.0\
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD_Metro\obj\Release\net8.0-windows10.0.19041.0\
 CVD
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-C:\Users\exus\Documents\GitHub\CVD_WPF\CVD\App.xaml
+C:\Users\exus\Documents\GitHub\CVD_WPF\CVD_Metro\App.xaml
 9-852480157
-
-27533184799
+1-2037594286
+282014415924
 2341665008017
 Styles\MetroWindow.xaml;Styles\TextBlock.xaml;Styles\Themes\HC.Dark.Blue.xaml;Styles\Themes\HC.Light.Blue.xaml;Styles\_FontSizes.xaml;Styles\_Thickness.xaml;Views\MainPage.xaml;Views\SettingsPage.xaml;Views\ShellWindow.xaml;
 

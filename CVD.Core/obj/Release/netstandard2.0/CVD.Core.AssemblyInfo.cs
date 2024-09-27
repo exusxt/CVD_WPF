@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVD.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bac5afb0396b2e0760456ccaea046428b218a2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b338c1e16cb082c8802be010265158756bdad8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVD.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVD.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

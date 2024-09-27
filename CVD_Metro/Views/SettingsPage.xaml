@@ -49,7 +49,7 @@
                             FontSize="{StaticResource MediumFontSize}"
                             Checked="OnDarkChecked"
                             IsChecked="{Binding Theme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Dark}" />
-                            <RadioButton
+                        <RadioButton
                             GroupName="AppTheme"
                             Content="{x:Static properties:Resources.SettingsPageRadioButtonWindowsDefaultTheme}"
                             Margin="{StaticResource XSmallTopMargin}"
@@ -58,6 +58,7 @@
                             IsChecked="{Binding Theme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default}" />
                     </StackPanel>
                 </StackPanel>
+                <Button x:Name="buttonCleanDownloads" Content="Empty Downloads Folder" Width="210"/>
 
                 <TextBlock
                     Margin="{StaticResource SmallTopMargin}"
@@ -67,10 +68,6 @@
                     Text="{Binding VersionDescription, Mode=OneWay}"
                     Margin="{StaticResource XSmallTopMargin}"
                     Style="{StaticResource BodyTextStyle}" />
-                <TextBlock
-                    Margin="{StaticResource XSmallTopMargin}"
-                    Style="{StaticResource BodyTextStyle}"
-                    Text="{x:Static properties:Resources.SettingsPageAboutText}" />
 
                 <TextBlock
                     Margin="{StaticResource SmallTopMargin}"
