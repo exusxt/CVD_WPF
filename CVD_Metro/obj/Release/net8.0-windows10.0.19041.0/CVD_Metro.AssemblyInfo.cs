@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVD_Metro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b338c1e16cb082c8802be010265158756bdad8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36421b2849415accf0b473ffe940f1e9f56364f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVD_Metro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVD_Metro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

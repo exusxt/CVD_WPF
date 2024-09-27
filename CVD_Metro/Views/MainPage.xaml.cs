@@ -168,7 +168,7 @@ public partial class MainPage : Page, INotifyPropertyChanged
         {
             ForceOverwrites = true,
             RestrictFilenames = true,
-            Format = "best",
+            //Format = "best",
             RemuxVideo = "mp4"
         };
         foreach (var listBoxItem in listBox1.Items)
@@ -196,7 +196,6 @@ public partial class MainPage : Page, INotifyPropertyChanged
             }
             else
             {
-                _notificationManager.Show("Error", listBoxItem.ToString() + " download failed!", NotificationType.Error, "WindowArea");
                 _notificationManager.Show("Warning", listBoxItem.ToString() + " download failed!", NotificationType.Warning, "WindowArea");
             }
             

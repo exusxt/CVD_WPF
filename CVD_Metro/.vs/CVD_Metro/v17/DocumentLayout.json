@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|c:\\users\\exus\\documents\\github\\cvd_wpf\\cvd_metro\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|c:\\users\\exus\\documents\\github\\cvd_wpf\\cvd_metro\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|c:\\users\\exus\\documents\\github\\cvd_wpf\\cvd_metro\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|c:\\users\\exus\\documents\\github\\cvd_wpf\\cvd_metro\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:views\\shellwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|c:\\users\\exus\\documents\\github\\cvd_wpf\\cvd_metro\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{8D2903F3-F1D7-44FC-A327-2E6F1126F8B0}|CVD_Metro.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
@@ -49,8 +49,7 @@
               "ToolTip": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Properties\\Settings.settings",
               "RelativeToolTip": "Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-09-26T22:59:39.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:59:39.876Z"
             },
             {
               "$type": "Document",
@@ -61,8 +60,7 @@
               "ToolTip": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\CVD_Metro.csproj",
               "RelativeToolTip": "CVD_Metro.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-26T22:49:33.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:49:33.947Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "RelativeToolTip": "Views\\SettingsPage.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:47:56.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:47:56.901Z"
             },
             {
               "$type": "Document",
@@ -86,8 +83,7 @@
               "ToolTip": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Views\\ShellWindow.xaml",
               "RelativeToolTip": "Views\\ShellWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-21T01:05:40.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T01:05:40.526Z"
             },
             {
               "$type": "Document",
@@ -97,26 +93,25 @@
               "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Views\\MainPage.xaml.cs",
               "RelativeToolTip": "Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAAK8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAKoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:00:27.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SettingsPage.xaml",
               "DocumentMoniker": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Views\\SettingsPage.xaml",
               "RelativeDocumentMoniker": "Views\\SettingsPage.xaml",
               "ToolTip": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Views\\SettingsPage.xaml",
               "RelativeToolTip": "Views\\SettingsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-20T23:53:00.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T23:53:00.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\exus\\Documents\\GitHub\\CVD_WPF\\CVD_Metro\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "Views\\MainPage.xaml",
